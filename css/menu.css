@@ -1,0 +1,45 @@
+.menu{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 20px;
+}
+
+.menu img{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	margin: 0 auto;
+}
+
+.experiences img, .projets img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+}
+
+.menu-top, .menu-bottom{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.menu-top div, .menu-bottom div{
+	position: relative;
+	margin: 30px;
+	width: 200px;
+	height: 200px;
+	border-radius: 3px;
+	padding: 10px;
+	transition: background-color 1s;
+}
+
+.menu-top div:hover, .menu-bottom div:hover{
+	margin: 32px;
+	width: 196px;
+	height: 196px;
+	border-radius: 3px;
+}

@@ -1,0 +1,184 @@
+#contenu{
+	height: 100%;
+	width: 70%;
+	margin: 0 auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	opacity: 0;
+}
+
+#myPict{
+	border-radius: 160px;
+	width: 200px;
+	height: 200px;
+	box-shadow: 1px 1px 10px 3px black;
+}
+
+#centerImg{
+	text-align: center;
+}
+
+button{
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+
+}
+table, td, th{
+	border: solid black 2px;
+	padding: 10px;
+}
+
+table{
+	border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+	height: 50px;
+    vertical-align: center;
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+}
+
+th{
+	background-color: rgba(0,0,0,0.5);
+}
+
+#tabComp td{
+	padding: 0;
+	font-weight: bold;
+}
+
+#tabComp img{
+	width: 100px;
+	height: auto;
+}
+
+#pair{
+	background-color: rgba(0,0,0,0.02);
+}
+
+.colonne{
+	display: flex;
+}
+
+.colonne img{
+	width: 70px;
+	height: 70px;
+}
+
+.colonne ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.colonne ul li{
+	padding-top: 10px;
+	padding-bottom: 35px;
+	position: relative;
+}
+
+.qualite ul li span{
+	position: absolute;
+	right: 0;
+}
+
+.defaut ul li span{
+	position: absolute;
+	left: 0;
+}
+
+.qualite, .defaut{
+	width: 100%;
+	position: relative;
+}
+
+.qualite ul, .defaut ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 10px; 
+}
+
+.qualite{
+	padding-right: 60px;
+	border-right:solid black 1px;
+	text-align: right;
+}
+
+.defaut{
+	border-left: solid black 1px;
+	padding-left: 60px;
+}
+
+#pictLI{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.myPrj{
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 80%;
+	margin:auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+	margin-bottom: 5px;
+}
+
+.myPrj:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 80%;
+	margin:auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+	margin-bottom: 5px;
+}
+
+.contenu-prj{
+	width: 80%;
+	margin:auto;
+	border-bottom:solid black 1px;
+	border-left:solid black 1px;
+	border-right:solid black 1px;
+	margin-bottom: 20px;
+	border-bottom-right-radius: 10px; 
+	border-bottom-left-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.myPrj .title-prj{
+	margin-left: 40px;
+}
+
+.flch{
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+#demo{
+	width: 100%;
+	text-align: center;
+}
+
+#demo_canvas{
+	width: 100%;
+}
+
+#demo_mongodb{
+	width: 50%;
+}
